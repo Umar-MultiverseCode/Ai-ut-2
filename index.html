@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Question Bank - Complete Answers</title>
+    <style>
+        @media print {
+            @page { margin: 2cm; }
+            body { margin: 0; }
+            .page-break { page-break-before: always; }
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            background: white;
+            color: #333;
+        }
+        
+        h1 {
+            color: #1a472a;
+            border-bottom: 3px solid #2d5a3d;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            font-size: 28px;
+        }
+        
+        h2 {
+            color: #2d5a3d;
+            margin-top: 25px;
+            font-size: 22px;
+            border-left: 4px solid #4a7c59;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #3d6b4a;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        
+        h4 {
+            color: #4a7c59;
+            margin-top: 15px;
+            font-size: 16px;
+            font-style: italic;
+        }
+        
+        p {
+            text-align: justify;
+            margin: 12px 0;
+        }
+        
+        ul, ol {
+            margin: 12px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        th {
+            background: #2d5a3d;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+        }
+        
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        
+        .formula {
+            background: #f5f5f5;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #4a7c59;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+        
+        .example-box {
+            background: #e8f4ea;
+            border: 2px solid #4a7c59;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 12px;
+            margin: 15px 0;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #1a472a 0%, #2d5a3d 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .unit-header {
+            background: #2d5a3d;
+            color: white;
+            padding: 15px;
+            margin: 30px 0 20px 0;
+            border-radius: 5px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .download-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #2d5a3d;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            font-weight: bold;
+            z-index: 1000;
+        }
+        
+        .download-btn:hover {
+            background: #1a472a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+        }
+        
+        @media screen {
+            body {
+                background: #f0f0f0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="margin: 0; border: none; color: white;">Artificial Intelligence</h1>
+        <p style="margin: 10px 0 0 0; font-size: 18px;">Complete Question Bank Answers</p>
+        <p style="margin: 5px 0 0 0; font-size: 14px;">Units 4, 5, and 6</p>
+    </div>
+
+    <button class="download-btn" onclick="window.print()">📄 Download PDF</button>
+
+    <div class="unit-header">UNIT 4: KNOWLEDGE AND REASONING</div>
+
+    <h2>1. What is Knowledge? Explain its importance in terms of AI. Also list down the different types of knowledge.</h2>
+
+    <h3>What is Knowledge?</h3>
+    <p>In Artificial Intelligence, <strong>knowledge</strong> refers to the collection of facts, information, and rules about the world that an AI system can use to solve problems, make decisions, and learn. Knowledge is distinguished from raw data (raw symbols/numbers) and information (meaning extracted from data) because it is processed, organized, and structured, allowing it to be used for reasoning.</p>
+
+    <h3>Importance in terms of AI</h3>
+    <p>Knowledge forms the core foundation of AI. Its importance stems from its role in enabling several intelligent capabilities:</p>
+
+    <ol>
+        <li><strong>Decision Making:</strong> AI uses knowledge, such as strategies and rules, to evaluate situations and choose the best action, as seen in chess AI.</li>
+        <li><strong>Reasoning:</strong> Knowledge enables logical reasoning and inference, allowing systems like medical diagnosis AI to infer possible diseases from symptoms.</li>
+        <li><strong>Learning:</strong> Machine learning relies on knowledge (e.g., user preferences) to improve its performance over time.</li>
+        <li><strong>Problem Solving:</strong> Knowledge guides AI in exploring potential solutions and eliminating inefficient ones, as in pathfinding AI that uses knowledge of roads and traffic.</li>
+        <li><strong>Handling Uncertainty:</strong> AI can apply knowledge, like fuzzy rules or probabilities, to make sound decisions even when dealing with incomplete or uncertain data.</li>
+    </ol>
+
+    <h3>Different Types of Knowledge</h3>
+    <ol>
+        <li><strong>Declarative Knowledge:</strong> Represents facts about the world (e.g., "Paris is the capital of France").</li>
+        <li><strong>Procedural Knowledge:</strong> Represents "how-to" knowledge (e.g., "How to drive a car").</li>
+        <li><strong>Meta-Knowledge:</strong> Knowledge about knowledge (e.g., "This rule applies only in summer season").</li>
+        <li><strong>Heuristic Knowledge:</strong> Represents rules of thumb or experience-based knowledge (e.g., "If traffic is heavy, take an alternate route").</li>
+    </ol>
+
+    <div class="page-break"></div>
+
+    <h2>2. Convert the following sentences into FOPL</h2>
+
+    <p>First-Order Predicate Logic (FOPL) provides a powerful framework for representing natural language statements using predicates, quantifiers, and logical connectives.</p>
+
+    <table>
+        <tr>
+            <th>Natural Language Statement</th>
+            <th>FOPL Expression</th>
+        </tr>
+        <tr>
+            <td>Everyone likes everyone.</td>
+            <td>∀x ∀y Likes(x,y)</td>
+        </tr>
+        <tr>
+            <td>All graduates are unemployed.</td>
+            <td>∀x (Graduate(x) → Unemployed(x))</td>
+        </tr>
+        <tr>
+            <td>All humans are mortal.</td>
+            <td>∀x (Human(x) → Mortal(x))</td>
+        </tr>
+        <tr>
+            <td>Some students are intelligent.</td>
+            <td>∃x (Student(x) ∧ Intelligent(x))</td>
+        </tr>
+        <tr>
+            <td>Every teacher teaches some subject.</td>
+            <td>∀x (Teacher(x) → ∃y (Subject(y) ∧ Teaches(x,y)))</td>
+        </tr>
+        <tr>
+            <td>No dog can fly.</td>
+            <td>∀x (Dog(x) → ¬CanFly(x))</td>
+        </tr>
+        <tr>
+            <td>If it rains, the ground becomes wet.</td>
+            <td>∀x (Rains(x) → Wet(x))</td>
+        </tr>
+    </table>
+
+    <div class="page-break"></div>
+
+    <h2>3. Illustrate forward chaining and backward chaining in propositional logic with examples.</h2>
+
+    <p>Both forward and backward chaining are inference mechanisms that apply logical rules to a knowledge base. They are often used in production rule systems and expert systems.</p>
+
+    <h3>Forward Chaining (FC)</h3>
+    <ul>
+        <li><strong>Approach/Direction:</strong> Known as a <strong>forward deduction</strong> or <strong>forward reasoning</strong> method. It is a <strong>down-up approach</strong> that moves from the initial state to the goal state.</li>
+        <li><strong>Process:</strong> FC is a <strong>data-driven</strong> approach. It starts with the known facts/atomic sentences in the knowledge base and applies inference rules (like Modus Ponens) in the forward direction. It triggers all rules whose premises are satisfied, adding their conclusions to the known facts, repeating until the goal is reached.</li>
+    </ul>
+
+    <div class="example-box">
+        <h4>Example (Family Domain):</h4>
+        <p><strong>Facts/KB:</strong> Parent(John, Mary) and Parent(Mary, Alice).</p>
+        <p><strong>Rule:</strong> Parent(x, y) ∧ Parent(y, z) → Grandparent(x, z).</p>
+        <p><strong>Process:</strong> Since the facts in the KB satisfy the premises of the rule (with substitutions x=John, y=Mary, z=Alice), the conclusion is directly inferred in the forward direction: Grandparent(John, Alice).</p>
+    </div>
+
+    <h3>Backward Chaining (BC)</h3>
+    <ul>
+        <li><strong>Approach/Direction:</strong> Known as a <strong>backward deduction</strong> or <strong>backward reasoning</strong> method. It is a <strong>top-down approach</strong>.</li>
+        <li><strong>Process:</strong> BC is a <strong>goal-driven</strong> approach. It starts with the goal (query) that needs to be proved and works backward, chaining through rules to find known facts that support the goal. The main goal is broken down into necessary sub-goals.</li>
+    </ul>
+
+    <div class="example-box">
+        <h4>Example (Family Domain):</h4>
+        <p><strong>Goal (Query):</strong> Prove Grandparent(John, Alice).</p>
+        <p><strong>Rule:</strong> Parent(x, y) ∧ Parent(y, z) → Grandparent(x, z).</p>
+        <p><strong>Process:</strong> To prove the goal, the system looks for a rule whose consequence matches the goal. Using substitution (x=John, z=Alice), the system sets two sub-goals to be proved: Parent(John, y) and Parent(y, Alice).</p>
+        <p><strong>Result:</strong> By matching y=Mary, the system checks the KB and finds that both sub-goals, Parent(John, Mary) and Parent(Mary, Alice), are true. The goal is therefore satisfied.</p>
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>4. What is propositional logic? How different is it from first order predicate logic? Give an example to support your answer.</h2>
+
+    <h3>Propositional Logic (PL)</h3>
+    <p><strong>Propositional logic</strong> is the simplest form of logic where all statements are made by propositions. A proposition is defined as a declarative statement that is either definitively true or false. PL is also known as Boolean logic because it operates using binary values (0 and 1).</p>
+
+    <h3>Difference from First Order Predicate Logic (FOPL)</h3>
+    <p>FOPL (or Predicate Logic) is an extension to PL because PL is often not sufficient to represent complex sentences or natural language statements. <strong>FOPL is more expressive and powerful</strong> than PL.</p>
+
+    <table>
+        <tr>
+            <th>Feature</th>
+            <th>Propositional Logic (PL)</th>
+            <th>First Order Predicate Logic (FOPL)</th>
+        </tr>
+        <tr>
+            <td><strong>Expressive Power</strong></td>
+            <td>Limited. Can only represent simple true/false statements.</td>
+            <td>Sufficient to represent natural language statements concisely.</td>
+        </tr>
+        <tr>
+            <td><strong>Elements</strong></td>
+            <td>Works with propositions and logical connectives (AND, OR, NOT).</td>
+            <td>Deals with <strong>Objects</strong>, their <strong>Properties</strong>, <strong>Relations</strong> between objects, and <strong>Quantifiers</strong>.</td>
+        </tr>
+        <tr>
+            <td><strong>Quantification</strong></td>
+            <td>Cannot represent relations like ALL, some, or none.</td>
+            <td>Uses <strong>Universal (∀)</strong> and <strong>Existential (∃)</strong> quantifiers.</td>
+        </tr>
+    </table>
+
+    <h3>Example to Support the Difference</h3>
+    <p>Consider the statement: <strong>"All students are intelligent."</strong></p>
+
+    <div class="example-box">
+        <p><strong>PL Limitation:</strong> Propositional logic cannot represent the scope of the term "All". If we tried to represent this, we could only assign a symbolic variable like P to the entire statement, but we couldn't describe the statement in terms of the properties of individual students.</p>
+        
+        <p><strong>FOPL Capability:</strong> FOPL uses the Universal Quantifier (∀) and Predicates to capture the relationship concisely:</p>
+        <div class="formula">∀x (Student(x) → Intelligent(x))</div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="unit-header">UNIT 5: REASONING UNDER UNCERTAINTY</div>
+
+    <h2>1. Explain Prior and Posterior probability with the help of examples. (8 Marks)</h2>
+
+    <p>Prior and Posterior probabilities are fundamental concepts in Bayesian inference, used for reasoning under uncertainty. These concepts form the backbone of probabilistic reasoning in artificial intelligence systems.</p>
+
+    <h3>Prior Probability [P(A)]</h3>
+    <p><strong>Definition:</strong> The <strong>prior probability</strong> is the initial estimate of the probability of an event (or hypothesis) <em>before</em> any new evidence or information is taken into account. It represents the agent's initial belief based on historical data, domain knowledge, or general population statistics.</p>
+
+    <p><strong>Characteristics of Prior Probability:</strong></p>
+    <ul>
+        <li>Reflects our initial belief or knowledge about an event</li>
+        <li>Based on historical data, past experiences, or domain expertise</li>
+        <li>Does not consider any new observations or evidence</li>
+        <li>Serves as the starting point for Bayesian updating</li>
+    </ul>
+
+    <div class="example-box">
+        <h4>Example 1: Weather Prediction</h4>
+        <p>If you are trying to predict rain tomorrow and you know that historically it rains 30% of the time in that month, your prior probability is P(Rain) = 0.3. This is based purely on historical weather patterns without considering today's specific weather conditions.</p>
+    </div>
+
+    <div class="example-box">
+        <h4>Example 2: Medical Diagnosis</h4>
+        <p>In a medical context, if a disease affects 1% of the general population, then P(Disease) = 0.01 is the prior probability. This represents the baseline risk before any symptoms or tests are considered.</p>
+    </div>
+
+    <h3>Posterior Probability [P(A|B)]</h3>
+    <p><strong>Definition:</strong> The <strong>posterior probability</strong> is the updated probability of an event that is calculated <em>after</em> taking all evidence or new information into account. It is calculated using <strong>Bayes' Theorem</strong> to update the prior belief based on the likelihood of the observed data.</p>
+
+    <p><strong>Characteristics of Posterior Probability:</strong></p>
+    <ul>
+        <li>Incorporates new evidence or observations</li>
+        <li>Provides a more informed and accurate probability estimate</li>
+        <li>Calculated using Bayes' Theorem</li>
+        <li>Represents our updated belief after observing evidence</li>
+        <li>Can become the new prior for future updates as more evidence arrives</li>
+    </ul>
+
+    <div class="example-box">
+        <h4>Example 1: Weather Prediction (Continued)</h4>
+        <p>Following the rain example, if you observe a new weather report (B) predicting rain with dark clouds forming, the posterior probability P(Rain | Weather Report) is the updated likelihood of rain, reflecting a more informed belief after incorporating the forecast. This might increase to 0.7 or higher based on the reliability of the weather report.</p>
+    </div>
+
+    <div class="example-box">
+        <h4>Example 2: Email Spam Classification</h4>
+        <p><strong>Prior:</strong> P(Spam) = 0.3 (30% of emails are spam based on historical data)</p>
+        <p><strong>Evidence:</strong> The email contains the word "FREE" multiple times</p>
+        <p><strong>Posterior:</strong> P(Spam | "FREE" in email) might be 0.85, indicating that after observing this specific evidence, we're now 85% confident the email is spam.</p>
+    </div>
+
+    <h3>Relationship Between Prior and Posterior</h3>
+    <div class="formula">
+        P(Hypothesis | Evidence) = [P(Evidence | Hypothesis) × P(Hypothesis)] / P(Evidence)
+        <br><br>
+        Posterior = [Likelihood × Prior] / Normalizing Constant
+    </div>
+
+    <p><strong>Key Insight:</strong> The posterior probability becomes the new prior when additional evidence is obtained, creating a continuous cycle of belief updating in Bayesian reasoning systems.</p>
+
+    <div class="note">
+        <strong>Practical Importance:</strong> The distinction between prior and posterior probabilities is crucial in AI applications such as machine learning, expert systems, diagnostic systems, and decision-making under uncertainty. It allows systems to start with general knowledge and refine their predictions as specific evidence becomes available.
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>2. Explain Bayesian Belief Network. Describe the steps of constructing a belief network with an example. (8 Marks)</h2>
+
+    <h3>Bayesian Belief Network (BBN)</h3>
+    <p>A <strong>Bayesian Belief Network (BBN)</strong>, also called a Bayesian Network or Belief Network, is a probabilistic graphical model used for representing uncertain domains and reasoning under uncertainty. It visually and mathematically represents a set of variables and their conditional dependencies via a <strong>Directed Acyclic Graph (DAG)</strong>.</p>
+
+    <h3>Key Features of Bayesian Networks</h3>
+    <ul>
+        <li><strong>Compact Representation:</strong> Efficiently encodes joint probability distributions over multiple variables</li>
+        <li><strong>Causal Modeling:</strong> Captures cause-effect relationships between variables</li>
+        <li><strong>Uncertainty Handling:</strong> Manages probabilistic dependencies and uncertain knowledge</li>
+        <li><strong>Inference Capability:</strong> Allows prediction, diagnosis, and decision-making based on partial evidence</li>
+    </ul>
+
+    <h3>Components of a Bayesian Belief Network</h3>
+
+    <ol>
+        <li><strong>Nodes:</strong> Represent random variables in the domain (e.g., Disease, Symptoms, Test Results). Each node can take on different values or states.</li>
+        
+        <li><strong>Arcs (Directed Edges):</strong> Directed arrows representing the conditional dependencies or causal correlations between variables. An arc from node A to node B indicates that A directly influences B (A is the parent of B).</li>
+        
+        <li><strong>Conditional Probability Tables (CPTs):</strong> Quantify the probabilistic relationship between a node and its parents. Each node has a CPT that specifies the probability of the node taking each of its values given every possible combination of parent values. Root nodes (nodes with no parents) have prior probability distributions.</li>
+    </ol>
+
+    <h3>Advantages of Bayesian Networks</h3>
+    <ul>
+        <li>Handles incomplete data effectively</li>
+        <li>Supports bidirectional inference (both predictive and diagnostic reasoning)</li>
+        <li>Combines expert knowledge with data-driven learning</li>
+        <li>Provides transparent reasoning through probability calculations</li>
+        <li>Can update beliefs incrementally as new evidence arrives</li>
+    </ul>
+
+    <h3>Steps of Constructing a Belief Network</h3>
+
+    <div class="example-box">
+        <h4>Detailed Example: Medical Diagnosis System</h4>
+        
+        <p><strong>Scenario:</strong> We want to build a Bayesian Network to diagnose a respiratory disease based on symptoms.</p>
+
+        <h4>Step 1: Identify Variables (Random Variables in the Domain)</h4>
+        <p>Define all relevant variables that affect or are affected by the problem domain:</p>
+        <ul>
+            <li><strong>Disease (D):</strong> Binary variable {True, False} - whether the patient has the disease</li>
+            <li><strong>Cough (C):</strong> Binary variable {True, False} - whether the patient has a cough</li>
+            <li><strong>Fever (F):</strong> Binary variable {True, False} - whether the patient has fever</li>
+            <li><strong>Fatigue (T):</strong> Binary variable {True, False} - whether the patient experiences fatigue</li>
+        </ul>
+
+        <h4>Step 2: Define Structure (Create the DAG)</h4>
+        <p>Determine the causal relationships and draw directed edges. The structure must be acyclic (no loops).</p>
+        <p><strong>Assumptions for our example:</strong></p>
+        <ul>
+            <li>The Disease directly causes the three symptoms</li>
+            <li>Symptoms do not cause each other (conditional independence given disease status)</li>
+        </ul>
+        <p><strong>Structure:</strong> Directed edges point from Disease (D) to each symptom:</p>
+        <ul>
+            <li>D → C (Disease influences Cough)</li>
+            <li>D → F (Disease influences Fever)</li>
+            <li>D → T (Disease influences Fatigue)</li>
+        </ul>
+        <p>This creates a simple tree structure with Disease as the root node and symptoms as leaf nodes.</p>
+
+        <h4>Step 3: Define Prior Probabilities (for Root Nodes)</h4>
+        <p>Assign initial probabilities for nodes with no parents based on domain knowledge or statistical data:</p>
+        <div class="formula">
+            P(D = True) = 0.01 (1% of population has the disease)<br>
+            P(D = False) = 0.99 (99% of population doesn't have the disease)
+        </div>
+
+        <h4>Step 4: Define Conditional Probability Tables (CPTs)</h4>
+        <p>Quantify the dependence of each child node on its parents. For each symptom, we specify how likely it is given the disease status:</p>
+
+        <p><strong>CPT for Cough (C):</strong></p>
+        <table style="width: 60%; margin: 10px 0;">
+            <tr>
+                <th>Disease (D)</th>
+                <th>P(C = True | D)</th>
+                <th>P(C = False | D)</th>
+            </tr>
+            <tr>
+                <td>True</td>
+                <td>0.80</td>
+                <td>0.20</td>
+            </tr>
+            <tr>
+                <td>False</td>
+                <td>0.10</td>
+                <td>0.90</td>
+            </tr>
+        </table>
+        <p><em>Interpretation: If the patient has the disease, there's an 80% chance of coughing. Without the disease, only 10% chance of coughing (due to other causes).</em></p>
+
+        <p><strong>CPT for Fever (F):</strong></p>
+        <table style="width: 60%; margin: 10px 0;">
+            <tr>
+                <th>Disease (D)</th>
+                <th>P(F = True | D)</th>
+                <th>P(F = False | D)</th>
+            </tr>
+            <tr>
+                <td>True</td>
+                <td>0.70</td>
+                <td>0.30</td>
+            </tr>
+            <tr>
+                <td>False</td>
+                <td>0.05</td>
+                <td>0.95</td>
+            </tr>
+        </table>
+
+        <p><strong>CPT for Fatigue (T):</strong></p>
+        <table style="width: 60%; margin: 10px 0;">
+            <tr>
+                <th>Disease (D)</th>
+                <th>P(T = True | D)</th>
+                <th>P(T = False | D)</th>
+            </tr>
+            <tr>
+                <td>True</td>
+                <td>0.90</td>
+                <td>0.10</td>
+            </tr>
+            <tr>
+                <td>False</td>
+                <td>0.20</td>
+                <td>0.80</td>
+            </tr>
+        </table>
+
+        <h4>Step 5: Perform Inference (Using the Constructed Network)</h4>
+        <p>Once the network is constructed, it can perform various types of inference:</p>
+        
+        <p><strong>Example Query 1: Diagnostic Reasoning</strong></p>
+        <p><em>Given:</em> A patient has Cough = True and Fever = True</p>
+        <p><em>Find:</em> P(D = True | C = True, F = True)</p>
+        <p>The network uses Bayes' theorem and the CPTs to calculate the posterior probability of having the disease given these symptoms.</p>
+
+        <p><strong>Example Query 2: Predictive Reasoning</strong></p>
+        <p><em>Given:</em> Disease = True</p>
+        <p><em>Find:</em> P(C = True, F = True | D = True)</p>
+        <p>This predicts the likelihood of observing specific symptoms if the disease is present.</p>
+
+        <p><strong>Example Query 3: Intercausal Reasoning</strong></p>
+        <p>If we observe Cough = True, and then learn Fever = True, how does this additional evidence affect our belief about the Disease? The network can handle such complex queries through probability propagation.</p>
+    </div>
+
+    <div class="note">
+        <strong>Practical Applications:</strong> Bayesian Belief Networks are widely used in medical diagnosis, spam filtering, risk assessment, fault diagnosis in complex systems, decision support systems, and many other AI applications requiring reasoning under uncertainty.
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>3. Derive Bayes' Theorem from the definition of conditional probability, clearly showing each step. Using the derived theorem, solve the problem: A medical test for a certain disease is 95% accurate for those who have the disease and 90% accurate for those who do not. If 2% of the population has the disease, find the probability that a person who tests positive actually has the disease. (8 Marks)</h2>
+
+    <h3>Part A: Derivation of Bayes' Theorem</h3>
+
+    <p>Bayes' Theorem is one of the most fundamental results in probability theory and forms the mathematical foundation for Bayesian reasoning in AI. Let's derive it step by step from first principles.</p>
+
+    <h4>Step 1: Definition of Conditional Probability</h4>
+    <p>The conditional probability of event A given event B is defined as:</p>
+    <div class="formula">
+        P(A|B) = P(A ∩ B) / P(B)    where P(B) > 0
+    </div>
+    <p>This represents the probability of A occurring given that B has occurred.</p>
+
+    <p>Similarly, the conditional probability of event B given event A is:</p>
+    <div class="formula">
+        P(B|A) = P(B ∩ A) / P(A)    where P(A) > 0
+    </div>
+
+    <h4>Step 2: Expressing Joint Probability</h4>
+    <p>From the definition of conditional probability, we can rearrange to express the joint probability in two equivalent ways:</p>
+    <div class="formula">
+        From P(A|B): P(A ∩ B) = P(A|B) × P(B)    ... (Equation 1)
+    </div>
+    <div class="formula">
+        From P(B|A): P(B ∩ A) = P(B|A) × P(A)    ... (Equation 2)
+    </div>
+
+    <h4>Step 3: Applying Commutativity of Intersection</h4>
+    <p>Since the intersection operation is commutative, we have:</p>
+    <div class="formula">
+        P(A ∩ B) = P(B ∩ A)
+    </div>
+
+    <h4>Step 4: Equating the Two Expressions</h4>
+    <p>Setting Equation 1 equal to Equation 2:</p>
+    <div class="formula">
+        P(A|B) × P(B) = P(B|A) × P(A)
+    </div>
+
+    <h4>Step 5: Solving for P(A|B) - Bayes' Theorem</h4>
+    <p>Dividing both sides by P(B) (assuming P(B) > 0), we obtain <strong>
