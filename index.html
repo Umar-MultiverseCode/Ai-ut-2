@@ -14,11 +14,70 @@
         body {
             font-family: 'Georgia', 'Times New Roman', serif;
             line-height: 1.6;
-            max-width: 210mm;
+            max-width: 900px; /* A more flexible max-width for screens */
             margin: 0 auto;
-            padding: 20mm;
+            padding: 20px; /* Adjusted to a more common screen unit */
             background: white;
             color: #333;
+        }
+
+        /* Basic responsiveness for smaller screens */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            h4 {
+                font-size: 14px;
+            }
+            table, .formula, .example-box, .note {
+                margin: 15px 0;
+                padding: 10px;
+            }
+            th, td {
+                padding: 8px 10px;
+            }
+            .download-btn {
+                bottom: 20px;
+                right: 20px;
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            .header p {
+                font-size: 14px !important;
+            }
+            .unit-header {
+                font-size: 20px;
+                padding: 10px;
+            }
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+            th, td {
+                white-space: normal;
+            }
         }
         
         h1 {
